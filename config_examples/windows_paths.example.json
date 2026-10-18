@@ -1,0 +1,10 @@
+{
+  "root": "D:/InvestmentBrief",
+  "project": "D:/InvestmentBrief/project",
+  "temp": "D:/InvestmentBrief/project/tmp",
+  "cache": "D:/InvestmentBrief/project/cache",
+  "diagnostics": "D:/InvestmentBrief/project/diagnostics",
+  "backups": "D:/InvestmentBrief/project/backups",
+  "packages": "D:/InvestmentBrief/project/packages",
+  "protected_audio_root": "D:/DigestAudio"
+}

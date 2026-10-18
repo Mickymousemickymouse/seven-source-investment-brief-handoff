@@ -1,0 +1,155 @@
+{
+  "created_at_bjt": "2026-10-18T20:52:55+08:00",
+  "source_root_relative": "outputs/investment-brief",
+  "code_files": [
+    {
+      "path": "audit_20261015.py",
+      "original_sha256": "c042bd3bbfde1c842000fcc85dcf98f45313139c4f1c07f12604a9812fd5d4ea",
+      "package_sha256": "c042bd3bbfde1c842000fcc85dcf98f45313139c4f1c07f12604a9812fd5d4ea",
+      "byte_identical": true
+    },
+    {
+      "path": "collect_browser_snapshot.py",
+      "original_sha256": "3554362eddf6be326c0946d16ec4ca9c9424362ce7055f36511790cad291786f",
+      "package_sha256": "3554362eddf6be326c0946d16ec4ca9c9424362ce7055f36511790cad291786f",
+      "byte_identical": true
+    },
+    {
+      "path": "diagnostics/decode_qr_macos.swift",
+      "original_sha256": "1117405617858d7b83b283cb43f70da4f0e893f3381b164106c2c2150b8ffd77",
+      "package_sha256": "1117405617858d7b83b283cb43f70da4f0e893f3381b164106c2c2150b8ffd77",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/__init__.py",
+      "original_sha256": "7b98a9b029c580977141143cef2a58fdec9d23d25058470d4949fdf0c9569523",
+      "package_sha256": "7b98a9b029c580977141143cef2a58fdec9d23d25058470d4949fdf0c9569523",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/audio.py",
+      "original_sha256": "a4454fc351d3cfa658ff534df94b880453444c9e614cece9f184ad5d0f7a773b",
+      "package_sha256": "a4454fc351d3cfa658ff534df94b880453444c9e614cece9f184ad5d0f7a773b",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/browser_bridge.py",
+      "original_sha256": "6a41ed3a87c3770c40d810ac1874fe48d05658fcf54866936dc2cbc64207c262",
+      "package_sha256": "6a41ed3a87c3770c40d810ac1874fe48d05658fcf54866936dc2cbc64207c262",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/browser_review.py",
+      "original_sha256": "3a61ab67665fd261644afcff7180869bac250a8a1c59ca0511a944382c0ff1ba",
+      "package_sha256": "3a61ab67665fd261644afcff7180869bac250a8a1c59ca0511a944382c0ff1ba",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/evidence.py",
+      "original_sha256": "92fa0123469b0f45923f9b2bc012bb56035e8d6b6c546db51e52e1640431b390",
+      "package_sha256": "92fa0123469b0f45923f9b2bc012bb56035e8d6b6c546db51e52e1640431b390",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/html_report.py",
+      "original_sha256": "5183d0ddb25148eb41cb82c145382b499f15f18ed0b95d77853c9c57e968c0ba",
+      "package_sha256": "5183d0ddb25148eb41cb82c145382b499f15f18ed0b95d77853c9c57e968c0ba",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/pdf_read.py",
+      "original_sha256": "46ee0b066291e0450acb325e0a320655314cf1a84094285ffbb190fd0f9b0d00",
+      "package_sha256": "46ee0b066291e0450acb325e0a320655314cf1a84094285ffbb190fd0f9b0d00",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/policy.py",
+      "original_sha256": "9fb418ad4825dbf983278963d90090f8fe55ed94bd2880f7e0681548080b3990",
+      "package_sha256": "9fb418ad4825dbf983278963d90090f8fe55ed94bd2880f7e0681548080b3990",
+      "byte_identical": true
+    },
+    {
+      "path": "digest/staging.py",
+      "original_sha256": "0f3f71d3fc291dc749044ca7dd2983758e0d95072d2bab32042083f275a54d90",
+      "package_sha256": "0f3f71d3fc291dc749044ca7dd2983758e0d95072d2bab32042083f275a54d90",
+      "byte_identical": true
+    },
+    {
+      "path": "extract_downloaded_pdfs.py",
+      "original_sha256": "91f565430594e59be4fb9319b75fba8bd1d7e109f7da014cbc0f74fc65b00dcf",
+      "package_sha256": "91f565430594e59be4fb9319b75fba8bd1d7e109f7da014cbc0f74fc65b00dcf",
+      "byte_identical": true
+    },
+    {
+      "path": "ocr_pdf_macos.swift",
+      "original_sha256": "e8c5d03693b78deb8f6e3a34f952af2a42cec35f57ac0b8dbb2eff07000e0798",
+      "package_sha256": "e8c5d03693b78deb8f6e3a34f952af2a42cec35f57ac0b8dbb2eff07000e0798",
+      "byte_identical": true
+    },
+    {
+      "path": "render_report_audio_macos.py",
+      "original_sha256": "30555d6d4744d8c0baa829e2c4259724226ff462ea3ac2aa9d6bca43685865fd",
+      "package_sha256": "30555d6d4744d8c0baa829e2c4259724226ff462ea3ac2aa9d6bca43685865fd",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_audio.py",
+      "original_sha256": "4a9c19289191c676304297be9407153d41b03cf20be6205caec72b4f66581ff9",
+      "package_sha256": "4a9c19289191c676304297be9407153d41b03cf20be6205caec72b4f66581ff9",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_audio_entrypoint.py",
+      "original_sha256": "33037a2c0eb1dec4b6edab578ce1d7dddc13596cfcf4af6160646936c5eb31cf",
+      "package_sha256": "8dc027953d8b5eb16ea8c8b5fdb98e1ccef4d803c2072249a3078c31aa7481a6",
+      "byte_identical": false
+    },
+    {
+      "path": "tests/test_browser_bridge.py",
+      "original_sha256": "2bef08344f83260c0af5be34c54013e50f97e128380b89634ebb490d6a9a6873",
+      "package_sha256": "2bef08344f83260c0af5be34c54013e50f97e128380b89634ebb490d6a9a6873",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_browser_review.py",
+      "original_sha256": "516470236768218af6819fc3c93f45f50309166f5c64a91a32e550cb2c4c25b3",
+      "package_sha256": "516470236768218af6819fc3c93f45f50309166f5c64a91a32e550cb2c4c25b3",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_evidence.py",
+      "original_sha256": "31ec7d8ad78f8e49f8f7410b351158638bb5dbc4f67a6034203afee75f9d57b2",
+      "package_sha256": "31ec7d8ad78f8e49f8f7410b351158638bb5dbc4f67a6034203afee75f9d57b2",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_html_report.py",
+      "original_sha256": "ad8a22f66c14e4ccd3d6dcce30441886ff4500d356112aaa827761a5a4251b3e",
+      "package_sha256": "ad8a22f66c14e4ccd3d6dcce30441886ff4500d356112aaa827761a5a4251b3e",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_policy.py",
+      "original_sha256": "7aaac620d821365570249d6270276c5e189177ed34cc9572c1bdb3d8b161afaa",
+      "package_sha256": "7aaac620d821365570249d6270276c5e189177ed34cc9572c1bdb3d8b161afaa",
+      "byte_identical": true
+    },
+    {
+      "path": "tests/test_staging.py",
+      "original_sha256": "3455eb16cc6812d9dae1760a15037499d1cbff5f61f467a794381d2c9ea8f673",
+      "package_sha256": "3455eb16cc6812d9dae1760a15037499d1cbff5f61f467a794381d2c9ea8f673",
+      "byte_identical": true
+    }
+  ],
+  "package_only_files": [
+    "project/requirements.txt",
+    "project/.gitignore",
+    "config_examples/*",
+    "README.md",
+    "CODEX_START_HERE.md",
+    "AGENTS.md",
+    "docs/*",
+    "legacy_reference/*"
+  ],
+  "intentional_code_difference": "Only project/tests/test_audio_entrypoint.py was adapted to skip the original-machine absolute-path test until a new local mac_audio_config.json exists."
+}

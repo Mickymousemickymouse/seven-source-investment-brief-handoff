@@ -1,0 +1,9 @@
+**/__pycache__/
+**/*.pyc
+project/.venv/
+project/mac_audio_config.json
+project/evidence/
+project/work/
+project/tmp/
+project/outputs/
+project/.swift-cache/
