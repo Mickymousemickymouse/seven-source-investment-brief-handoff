@@ -9,6 +9,7 @@
 | `project/` | 当前可执行源码、单元测试及必要的无凭据文件；主要包为 `project/digest/` |
 | `docs/current/` | 已合并本聊天后续变更的需求及 `SUMMARY_RULES.md` |
 | `docs/IMPLEMENTATION_STATUS.md` | 已实现功能、证据等级与尚未通过的验收 |
+| `docs/HANDOFF_ACCEPTANCE.md` | 独立解压、测试、依赖和 Mac 短音频的交接验收记录 |
 | `docs/OPEN_WORK.md` | 接手后要补齐的工作及完成标准 |
 | `legacy_reference/` | 2026-10-10 原交接材料、原设备规则与 source-reference；只作历史对照 |
 | `config_examples/` | [配置说明](config_examples/README.md)及供接手者复制、填写的模板；不得把本机私有配置直接上传 |
@@ -23,7 +24,7 @@
 
 ## 运行前置与入口
 
-- Python 3.10 或更新版本；`project/requirements.txt` 列出 `pypdf>=6.10,<7`，可在接手 MacBook 的隔离 Python 环境中安装。它是版本范围，不是精确锁定文件。PDF 页数校验在部分路径使用系统 `pdfinfo` 作为回退。
+- Python 3.10 或更新版本；`project/requirements.txt` 列出 `pypdf>=6.10,<7`，接手 MacBook 安装时须能访问获准的 Python 依赖源。ZIP 不捆绑依赖 wheel；本次受限环境访问 PyPI 的 DNS 失败，独立 venv 未完成依赖安装，详见 `docs/HANDOFF_ACCEPTANCE.md`。它是版本范围，不是精确锁定文件。PDF 页数校验在部分路径使用系统 `pdfinfo` 作为回退。
 - Mac 音频使用本机 `/usr/bin/say` 和 `/usr/bin/afconvert`，并要求已安装离线音色 Tingting（中文）和 Samantha（英文）。外发包**不含** `project/mac_audio_config.json`；先按[配置说明](config_examples/README.md)复制 `config_examples/mac_audio_config.example.json`，再填写接手 MacBook 的本机绝对路径。音频输出盘须有至少 1 GiB 可用空间。Windows Yaoyao 仅保留为后续需求与常量，尚无可运行的 Windows 音频入口。
 - `project/ocr_pdf_macos.swift` 使用 macOS 的 PDFKit、Vision、AppKit；这是需人工核对的 OCR 辅助工具，不能把 OCR 输出自动视作全文已读。
 - 已登录的七源浏览器页面及对下载、使用附件的合法权限，由接手者在自己的环境准备。不要复制原机登录状态，不要修改安全设置或绕过站点/App 限制。
