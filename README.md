@@ -63,6 +63,6 @@ cd project
 3. 先完成一轮可审计的七源正文、网页可见评论及应读附件读取，再接通行情、东方财富八只证券公告、报告、HTML 和音频。
 4. 优先验收接手 MacBook 的真实定时触发与整轮交付。Windows 并排部署及实机验收保留在待办清单，按用户最新安排延后。所有无法读取的项目保留明确缺口，不用旧证据或标题推测内容。
 
-`MANIFEST.sha256` 可在解压后的交接包根目录用 `shasum -a 256 -c MANIFEST.sha256` 核对文件；`SOURCE_PROVENANCE.json` 标明与原机当前源码逐文件哈希的关系。只有一个测试文件为去除原机用户名硬编码而作交接适配，其余 22 个 Python/Swift 源文件字节一致。ZIP 不含 `.git` 历史；可在[私有 GitHub 仓库](https://github.com/Mickymousemickymouse/seven-source-investment-brief-handoff)查看和克隆代码，接手同事需要由仓库所有者授权访问。
+`MANIFEST.sha256` 可在解压后的交接包根目录用 `shasum -a 256 -c MANIFEST.sha256` 核对文件；`SOURCE_PROVENANCE.json` 标明与原机当前源码逐文件哈希的关系。只有一个测试文件为去除原机用户名硬编码而作交接适配，其余 22 个 Python/Swift 源文件字节一致。ZIP 不含 `.git` 历史；可在[公开 GitHub 仓库](https://github.com/Mickymousemickymouse/seven-source-investment-brief-handoff)查看和下载当前代码。用户已确认原样公开，包括包内的固定来源 ID、持仓证券代码和沟通摘要；隐私与排除范围见 `docs/SHARING_AND_EXCLUSIONS.md`。
 
 这份 README 记录的是**2026-10-18 的代码状态**，不是对未来每期报告完整性的保证。每轮仍需用对应时间窗口的真实来源和阅读记录重新核验。
